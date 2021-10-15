@@ -30,6 +30,6 @@ html, body { margin: 0;}
     --color-dark-darked:#0e0f11;
     --border-color: #dee2e0;
     --border-color-darked: #c1c5c3;
-
+    --container-padding: 1em;
 }
 

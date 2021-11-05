@@ -8,11 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="modal text-dark">
+    <div class="modal text-dark" id="modal_test">
         <div class="modal-content">
             <div class="modal-header">
                 <h5>Encabezado</h5>
-                <button>X</button>
+                <button data-dismiss= "modal_selector">X</button>
             </div>
             <div class="modal-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore aspernatur nesciunt facilis asperiores odit fuga tempore distinctio, quisquam omnis dicta aliquid ut repellat itaque, quis, quaerat molestias nemo veritatis.
@@ -37,5 +37,10 @@
     <div class="bg-primary">
         Hola Mundo
     </div>
+    <button class="btn btn-success" data-toggle="modal" data-target="#modal_test">Abrir modal</button>
+
+    <button class="btn btn-success" data-toggle="modal" data-target="#modal_test">Abrir modal2</button>
+
+    <script src="js/framework.js"> </script>
 </body>
 </html>
